@@ -1,5 +1,7 @@
 # Smart Logistics & Automated Warehouse Management Engine (SLAWME)
 
+> **Student Name**: Aryan Dev  
+> **Registration Number**: 24BEC10070  
 > **Course**: Programming in Java  
 > **Platform**: VITyarthi Flipped Course Evaluation — Build Your Own Project  
 > **Repository Type**: Public  
@@ -8,7 +10,7 @@
 ---
 
 ## 📌 Project Overview
-**SLAWME** is an enterprise-grade, lightweight, high-performance Java Command Line application designed to solve critical challenges in modern supply chain management and automated warehousing. It provides robust inventory tracking for perishable and electronic goods, role-based security access control (RBAC), multithreaded asynchronous order fulfillment, real-time threshold alert monitoring, and Java 22 Stream API analytical reporting.
+**SLAWME** is an enterprise-grade, lightweight, high-performance Java Command Line application designed by **Aryan Dev (Reg No: 24BEC10070)** to solve critical challenges in modern supply chain management and automated warehousing. It provides robust inventory tracking for perishable and electronic goods, role-based security access control (RBAC), multithreaded asynchronous order fulfillment, real-time threshold alert monitoring, and Java 22 Stream API analytical reporting.
 
 ---
 
@@ -59,7 +61,7 @@
 #### Option A: Single-Command Windows Batch Script (Recommended)
 ```cmd
 # 1. Clone the repository
-git clone https://github.com/your-username/vityarthi-java-slawme.git
+git clone https://github.com/Aryan1208ak/vityarthi-java-slawme.git
 cd vityarthi-java-slawme
 
 # 2. Compile and run interactive CLI application
@@ -138,10 +140,11 @@ Running InventoryServiceTest suite...
 ## 📊 Sample CLI Output & Showcase
 
 ```text
-==========================================================================
-    Smart Logistics & Automated Warehouse Management Engine (SLAWME)     
-               VITyarthi Java Flipped Course CLI Application              
-==========================================================================
+=========================================================================="
+    Smart Logistics & Automated Warehouse Management Engine (SLAWME)     "
+               VITyarthi Java Flipped Course CLI Application              "
+               Developed by: Aryan Dev (Reg No: 24BEC10070)               "
+=========================================================================="
 
 ==========================================================
  Active User: admin        | Role: Administrator         

@@ -23,3 +23,30 @@
 [2026-09-18 23:31:05] [INFO ] [ORDER-FULFILLMENT] : Updated Stock for [E999]: 10 -> 8
 [2026-09-18 23:31:05] [INFO ] [ORDER-FULFILLMENT] : Updated Stock for [P101]: 120 -> 115
 [2026-09-18 23:31:05] [INFO ] [THREAD-WORKER] : Successfully Dispatched Order ID: ORD-DEMO-001
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:54:21] [INFO ] [admin     ] : Successful login as Administrator
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:54:21] [WARN ] [admin     ] : Failed login attempt: Invalid password
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:54:21] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:54:21] [INFO ] [auditor   ] : Successful login as Compliance Auditor
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:54:56] [INFO ] [admin     ] : Successful login as Administrator
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:54:56] [WARN ] [admin     ] : Failed login attempt: Invalid password
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:54:56] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:54:56] [INFO ] [auditor   ] : Successful login as Compliance Auditor
+[2026-09-18 23:54:56] [INFO ] [TEST-RUNNER] : Added Item: Item[TEST-ADD-6719 - Test Laptop] Stock: 10, Value: $9999.90
+[2026-09-18 23:54:56] [INFO ] [TEST-RUNNER] : Added Item: Item[TEST-LOW-6824 - Low Stock Item] Stock: 2, Value: $100.00
+[2026-09-18 23:54:56] [INFO ] [TEST-RUNNER] : Added Item: Item[TEST-EXP-6880 - Expired Cheese] Stock: 10, Value: $50.00

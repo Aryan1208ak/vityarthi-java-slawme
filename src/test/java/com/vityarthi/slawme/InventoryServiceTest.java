@@ -25,10 +25,11 @@ public class InventoryServiceTest {
 
     private static void testAddAndRetrieveItem() {
         InventoryService service = new InventoryService();
-        ElectronicItem item = new ElectronicItem("TEST-01", "Test Laptop", "Hardware", 999.99, 10, 2, 12, 220);
+        String testId = "TEST-ADD-" + System.currentTimeMillis() % 10000;
+        ElectronicItem item = new ElectronicItem(testId, "Test Laptop", "Hardware", 999.99, 10, 2, 12, 220);
         try {
             service.addItem(item, "TEST-RUNNER");
-            WarehouseItem fetched = service.getItem("TEST-01");
+            WarehouseItem fetched = service.getItem(testId);
             assert fetched != null : "Fetched item should not be null";
             assert "Test Laptop".equals(fetched.getName()) : "Item name mismatch";
         } catch (WarehouseException e) {
@@ -38,11 +39,12 @@ public class InventoryServiceTest {
 
     private static void testLowStockFiltering() {
         InventoryService service = new InventoryService();
-        ElectronicItem lowStockItem = new ElectronicItem("TEST-LOW", "Low Stock Item", "Hardware", 50.0, 2, 5, 6, 110);
+        String testId = "TEST-LOW-" + System.currentTimeMillis() % 10000;
+        ElectronicItem lowStockItem = new ElectronicItem(testId, "Low Stock Item", "Hardware", 50.0, 2, 5, 6, 110);
         try {
             service.addItem(lowStockItem, "TEST-RUNNER");
             List<WarehouseItem> lowStock = service.getLowStockItems();
-            boolean found = lowStock.stream().anyMatch(i -> "TEST-LOW".equals(i.getId()));
+            boolean found = lowStock.stream().anyMatch(i -> testId.equals(i.getId()));
             assert found : "Low stock item should be present in low stock alerts list";
         } catch (WarehouseException e) {
             throw new RuntimeException("Test Failed: " + e.getMessage());
@@ -57,11 +59,12 @@ public class InventoryServiceTest {
 
     private static void testPerishableExpiryFilter() {
         InventoryService service = new InventoryService();
-        PerishableItem expired = new PerishableItem("TEST-EXP", "Expired Cheese", "Dairy", 5.0, 10, 2, LocalDate.now().minusDays(2), 4.0);
+        String testId = "TEST-EXP-" + System.currentTimeMillis() % 10000;
+        PerishableItem expired = new PerishableItem(testId, "Expired Cheese", "Dairy", 5.0, 10, 2, LocalDate.now().minusDays(2), 4.0);
         try {
             service.addItem(expired, "TEST-RUNNER");
             List<PerishableItem> list = service.getExpiredItems();
-            boolean found = list.stream().anyMatch(i -> "TEST-EXP".equals(i.getId()));
+            boolean found = list.stream().anyMatch(i -> testId.equals(i.getId()));
             assert found : "Expired item must be returned by getExpiredItems() filter";
         } catch (WarehouseException e) {
             throw new RuntimeException("Test Failed: " + e.getMessage());

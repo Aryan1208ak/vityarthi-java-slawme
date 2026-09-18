@@ -1,5 +1,12 @@
 # Project Statement: Smart Enterprise Warehouse & Supply Chain Management CLI System (SLAWME)
 
+**Student Name**: Aryan Dev  
+**Registration Number**: 24BEC10070  
+**Course Name**: Programming in Java  
+**Platform**: VITyarthi Flipped Course Evaluation  
+
+---
+
 ## 1. Problem Statement
 Modern logistics centers, distribution hubs, and enterprise warehouses face critical operational challenges in tracking fast-moving inventory, preventing perishable stock wastage, ensuring role-based access control, and executing high-throughput order dispatches concurrently. Traditional inventory tracking methods suffer from human data-entry errors, lack real-time auditability, and fail to provide automated reorder alerts or stream-based multi-category analytics.
 

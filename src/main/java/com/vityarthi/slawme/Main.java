@@ -149,6 +149,7 @@ public class Main {
         System.out.println(BOLD + CYAN + "==========================================================================" + RESET);
         System.out.println(BOLD + PURPLE + "    Smart Logistics & Automated Warehouse Management Engine (SLAWME)     " + RESET);
         System.out.println(BOLD + CYAN + "               VITyarthi Java Flipped Course CLI Application              " + RESET);
+        System.out.println(BOLD + YELLOW + "              Student: Aryan Dev | Reg No: 24BEC10070                     " + RESET);
         System.out.println(BOLD + CYAN + "==========================================================================" + RESET);
     }
 
