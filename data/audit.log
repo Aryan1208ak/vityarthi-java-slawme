@@ -1,0 +1,25 @@
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:30:46] [INFO ] [admin     ] : Successful login as Administrator
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:30:46] [WARN ] [admin     ] : Failed login attempt: Invalid password
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:30:46] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:30:46] [INFO ] [auditor   ] : Successful login as Compliance Auditor
+[2026-09-18 23:30:46] [INFO ] [TEST-RUNNER] : Added Item: Item[TEST-01 - Test Laptop] Stock: 10, Value: $9999.90
+[2026-09-18 23:30:46] [INFO ] [TEST-RUNNER] : Added Item: Item[TEST-LOW - Low Stock Item] Stock: 2, Value: $100.00
+[2026-09-18 23:30:46] [INFO ] [TEST-RUNNER] : Added Item: Item[TEST-EXP - Expired Cheese] Stock: 10, Value: $50.00
+[2026-09-18 23:31:05] [INFO ] [SYSTEM    ] : Registered new user: User[admin] Role: Administrator
+[2026-09-18 23:31:05] [INFO ] [SYSTEM    ] : Registered new user: User[manager] Role: Inventory Manager
+[2026-09-18 23:31:05] [INFO ] [SYSTEM    ] : Registered new user: User[auditor] Role: Compliance Auditor
+[2026-09-18 23:31:05] [INFO ] [admin     ] : Successful login as Administrator
+[2026-09-18 23:31:05] [INFO ] [admin     ] : Added Item: Item[E999 - Automated Drone] Stock: 10, Value: $12999.90
+[2026-09-18 23:31:05] [INFO ] [admin     ] : Order Placed: Order[ORD-DEMO-001] Customer: Acme Corp, Items: 2, Total: $2617.43, Status: PENDING
+[2026-09-18 23:31:05] [INFO ] [THREAD-WORKER] : Processing Order ID: ORD-DEMO-001
+[2026-09-18 23:31:05] [INFO ] [ORDER-FULFILLMENT] : Updated Stock for [E999]: 10 -> 8
+[2026-09-18 23:31:05] [INFO ] [ORDER-FULFILLMENT] : Updated Stock for [P101]: 120 -> 115
+[2026-09-18 23:31:05] [INFO ] [THREAD-WORKER] : Successfully Dispatched Order ID: ORD-DEMO-001
