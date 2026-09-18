@@ -4,8 +4,7 @@
 > **Registration Number**: 24BEC10070  
 > **Course**: Programming in Java  
 > **Platform**: VITyarthi Flipped Course Evaluation — Build Your Own Project  
-> **Repository Type**: Public  
-> **Executability**: 100% Terminal CLI Executable (Zero GUI Dependencies)
+
 
 ---
 
